@@ -1,0 +1,8 @@
+{application, simple_sup, [
+  {id, "simple_sup"},
+  {description, "simple supervisor for erlang"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}
+]}.
